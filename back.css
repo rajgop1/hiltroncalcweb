@@ -1,0 +1,21 @@
+.back{
+    padding:10px 30px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: rgb(53, 53, 219); 
+    color:white;
+    cursor: pointer;
+    user-select: none;
+
+    transition: 0.5s all;
+}
+.backtbncontainer{
+    display: flex;
+    
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+}
+.back:hover{
+    transform: scale(1.1);
+}

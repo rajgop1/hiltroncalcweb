@@ -1,0 +1,66 @@
+.aboutusmain{
+    margin: 40px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:rgb(39, 39, 187);
+}
+.profile{
+    height:200px;
+    width: 200px;   
+    border:2px solid rgb(124, 128, 184);
+    
+ 
+}
+.profile img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    object-position: 100% 0%;
+}
+
+
+.aboutusdetail{
+    margin: 10px 0px;
+    
+    border-radius:10px ;
+    background-color: rgb(206, 206, 238);
+}
+.aboutheading{
+    text-align: center;
+    margin: 10px 0px;
+}
+.aboutusdesc{
+    width: 80vw;
+    text-align: center;
+    color:rgb(44, 44, 139);
+    margin: 20px 10px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-shadow: 0px 0px 2px rgb(168, 165, 165);
+}
+@media screen and (max-width:400px) {
+    
+    .aboutusmain{
+        grid-template-columns: repeat(auto-fit,20rem);
+    }.profile{
+        justify-self: center;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./Images/hilcalcbuilding2.jpg");
+    background-repeat: no-repeat;;
+    background-size:cover;
+    background-position:center;
+}
+.body{
+    position: absolute;
+    background-color:rgba(19, 8, 167, 0.116);
+    min-height: 100%;
+    min-width: 100%;
+}
