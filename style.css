@@ -93,6 +93,9 @@ body{
    color:rgb(56, 106, 200); 
 
 }
+.left > * > *{
+    margin-right:20px ;
+}
 .rightt{
     margin-right: 20px;
 }
@@ -100,6 +103,9 @@ body{
     display: flex;
     gap:20px;
     margin-bottom: 5px;
+}
+.socialcontainer i{
+    margin-right: 20px;
 }
 @media screen and (max-width:400px){
     .footercontainer{

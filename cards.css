@@ -67,6 +67,7 @@
     display: flex;
     justify-content: center;   
     align-items: center;
+    user-select: none;
 }
 .card .background{
     position: absolute;
@@ -96,10 +97,12 @@ grid-template-columns: repeat(auto-fit, 20rem);
 gap:20px;
 justify-content: center;
 justify-content: space-evenly;
+user-select: none;
 
 }
 .coursesheadings{
     margin:40px 5px;
+    user-select: none;
 }
 .coursebuttons>*{
     display: flex;
@@ -129,6 +132,7 @@ justify-content: space-evenly;
     margin: 40px 5px;
     color: rgb(30, 61, 200);
     text-shadow: 0px 2px 3px rgba(218, 193, 202, 0.856);
+    
 }
 body{
     min-height: 100vh;

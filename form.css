@@ -1,0 +1,74 @@
+.maincontainer{
+    margin: 20px 0px;
+}
+.formcontainer{
+    display: flex;
+    justify-content: center;
+}
+form{
+    
+    
+    margin: 0px 20px;
+    padding: 20px;
+    background-color: rgb(79, 103, 236);
+    border-radius: 20px;
+    color: blanchedalmond;
+
+    display: flex;
+    position: relative;
+    
+    flex-direction: column;
+
+    width: 50%;    
+
+    grid-template-columns: repeat(auto-fit,30rem);
+}
+.popup{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(81, 255, 0);
+    color:rgba(22, 67, 231, 0.705);
+    
+    font-size: 1rem;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+}
+.popuphide{
+    display: none;
+}
+.enqheading{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 29, 214);
+}
+form > *{
+    font-size: 1.5rem;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-bottom:20px ;
+}
+.submitbtn{
+    border: none;
+    color: white;
+    box-shadow: 1px 1px 3px 0px rgb(251, 226, 226);
+    background-color: rgb(34, 221, 17);
+    cursor: pointer;
+}
+.submitbtn:hover{
+    background-color: rgb(53, 43, 190);
+}
+@media screen and (max-width:400px) {
+    form{
+        width: 100%;
+        
+    }
+    form>*{
+        font-size: 1rem;
+    }
+}

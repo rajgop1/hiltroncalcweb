@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css">
+    
+    
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="formcontainer">
+            <form onsubmit="sendEmail(); reset(); return false">
+                <div class="enqheading">Send Enquiry</div>
+        <input  id="username"  required type="text" placeholder="Enter Name">
+        <input  id="phone" required  type="number" placeholder="Phone Number here..."  maxlength="10">
+        <input id="courseenquiry" required class="coursebox" list="course" placeholder="Select or type Course...">
+        <datalist id="course">
+            <optgroup label="Software">
+                <option >CCB (3 Month)</option>
+                <option selected >CST (6 Month)</option>
+                <option >DCA (1 Year)</option>
+                <option >Python </option>
+                <option >Java</option>
+                <option >C++ </option>
+                <option >C </option>
+            </optgroup>
+            <optgroup label="Hardware">
+                <option >CHN</option>
+                <option >DHN</option>
+            </optgroup>
+            <optgroup label="Accounting">
+                <option >CFA</option>
+                <option >DFA</option>
+            </optgroup>
+        </datalist>        
+
+        <textarea required id="enquirydetails" class="enq" rows=3 placeholder="Please type your enquiry here..."></textarea> 
+        <input class="submitbtn"  type="submit" value="Send">
+        <div id="popup" class="popup popuphide">
+            Thank You! Your message has been sent...
+        </div>
+    </form>
+    
+    </div>
+</div>
+    <script src="./form logic.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>
