@@ -1,9 +1,9 @@
 
 # Hiltron Calc ( Computer 🖥️ Coaching) Website
 
-This is a website created for the company i previously worked as a Teacher  
+This is a website created for the company i previously worked as a Teacher 
 As it is Dynamic Website The orignal link to the wesbite is http://hiltroncalckotdwara.great-site.net/
-
+The website have an additional Admin Link for the administrators
 
 ## Technologies Used
 To Create this website I Used
